@@ -1,0 +1,4 @@
+/home/sergiu/IEP/TemaIEP/build/CMakeFiles/edit_cache.dir
+/home/sergiu/IEP/TemaIEP/build/CMakeFiles/rebuild_cache.dir
+/home/sergiu/IEP/TemaIEP/build/CMakeFiles/function-staticlib.dir
+/home/sergiu/IEP/TemaIEP/build/CMakeFiles/my_app.dir
