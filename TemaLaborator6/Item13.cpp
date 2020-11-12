@@ -45,10 +45,8 @@ int main()
 	cout <<endl<< "Folosind pointeri de tip shared_ptr in loc de auto_ptr rezolva problema atribuirii"<<endl;
 	std::shared_ptr<Investment>pInv3(createInvestment("Nume"));
 	std::shared_ptr<Investment>pInv4(createInvestment("Nume"));
-	pInv = pInv3.get();
-	pInv->afisare("pInv3");
-	pInv = pInv4.get();
-	pInv->afisare("pInv4");
+	pInv3.get()->afisare("pInv3");
+	pInv4.get()->afisare("pInv4");
 
 
 
