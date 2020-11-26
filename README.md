@@ -1,2 +1,1 @@
-# Ma numesc Sergiu Fierascu.
-
+# Laborator IEP
