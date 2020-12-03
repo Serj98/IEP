@@ -1,0 +1,42 @@
+/dts-v1/;
+
+/ {
+	compatible = "acme,coyotes-revenge";
+
+	testdevdrv {
+		compatible = "test,mytestdevice";
+		number_property = <0x545c9>;
+		string-property = "YO";
+	};
+
+	cpus {
+
+		cpu@0 {
+			compatible = "arm,cortex-a9";
+		};
+
+		cpu@1 {
+			compatible = "arm,cortex-a9";
+		};
+	};
+
+	serial@101F0000 {
+		compatible = "arm,pl011";
+	};
+
+	serial@101F2000 {
+		compatible = "arm,pl011";
+	};
+
+	gpio@101F3000 {
+		compatible = "arm,pl061";
+	};
+
+	interrupt-controller@10140000 {
+		compatible = "arm,pl190";
+	};
+
+	spi@10115000 {
+		compatible = "arm,pl022";
+	};
+};
